@@ -11,4 +11,4 @@ yet.
 
 [Visual Studio Code]: https://code.visualstudio.com/
 
-[JSON5]: https://github.com/json5/json5
+[JSON5]: http://json5.org/
