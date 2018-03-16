@@ -1,0 +1,26 @@
+{
+    "name": "json5-vscode",
+    "displayName": "JSON5",
+    "description": "",
+    "version": "0.0.0",
+    "publisher": "TODO: create publisher",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "json5",
+            "aliases": ["JSON5", "json5"],
+            "extensions": [".json5"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "json5",
+            "scopeName": "source.json5",
+            "path": "./syntaxes/json5.tmLanguage.json"
+        }]
+    }
+}
